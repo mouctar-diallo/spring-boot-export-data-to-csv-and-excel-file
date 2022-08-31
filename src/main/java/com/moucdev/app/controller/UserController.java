@@ -3,7 +3,7 @@ package com.moucdev.app.controller;
 import com.moucdev.app.entities.User;
 import com.moucdev.app.helpers.CsvExportHelper;
 import com.moucdev.app.helpers.ExportDataInExcelFile;
-import com.moucdev.app.user.UserService;
+import com.moucdev.app.service.user.UserService;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

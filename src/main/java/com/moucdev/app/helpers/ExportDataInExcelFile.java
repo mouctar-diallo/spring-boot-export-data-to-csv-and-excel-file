@@ -19,7 +19,7 @@ public class ExportDataInExcelFile {
 
     public ByteArrayInputStream exportExcelData(List<User> users) {
         try(Workbook workbook = new XSSFWorkbook()){
-            Sheet sheet = workbook.createSheet("Contacts");
+            Sheet sheet = workbook.createSheet("Utlisateurs");
 
             Row row = sheet.createRow(0);
 

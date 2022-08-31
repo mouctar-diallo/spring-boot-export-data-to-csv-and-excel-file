@@ -1,4 +1,4 @@
-package com.moucdev.app.user;
+package com.moucdev.app.service.user;
 
 import com.moucdev.app.entities.User;
 import com.moucdev.app.repository.UserRepository;
