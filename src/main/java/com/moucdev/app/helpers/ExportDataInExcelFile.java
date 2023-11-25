@@ -29,7 +29,6 @@ public class ExportDataInExcelFile {
             headerCellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
 
             // Creating header cells
-
             Cell cell = row.createCell(0);
             cell.setCellValue("First Name");
             cell.setCellStyle(headerCellStyle);
@@ -41,8 +40,7 @@ public class ExportDataInExcelFile {
             cell = row.createCell(2);
             cell.setCellValue("Email");
             cell.setCellStyle(headerCellStyle);
-
-
+            
             // Creating data rows for each contact
             for(int i = 0; i < users.size(); i++) {
                 Row dataRow = sheet.createRow(i + 1);

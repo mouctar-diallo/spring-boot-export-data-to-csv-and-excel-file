@@ -43,7 +43,7 @@ public class UserController {
     }
 
     @GetMapping("users/export-excel")
-    public ResponseEntity<InputStreamResource> downloadExcelFile() throws IOException {
+    public ResponseEntity<InputStreamResource> exportExcelFile() throws IOException {
 
         List<User> users = userService.findAll();
         ByteArrayInputStream inputStream = exportDataInExcelFile.exportExcelData(users);

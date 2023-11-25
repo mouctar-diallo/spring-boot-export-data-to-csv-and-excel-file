@@ -22,10 +22,10 @@ public class UserDataFixture {
             log.info("**********************CREATE USERS************************");
             userRepository.saveAll(
                 Arrays.asList(
-                    new User(null,"Diallo", "Mouctar", "mouc@gmail.com"),
-                    new User(null, "sow", "Boubacar", "sow@gmail.com"),
-                    new User(null, "john", "doe", "joe@gmail.com"),
-                    new User(null, "Leo", "pulga", "leo@gmail.com")
+                    new User(null,"Mouctar", "Diallo", "mouc@gmail.com"),
+                    new User(null, "John", "Doe", "joh@gmail.com"),
+                    new User(null, "Moussa", "keita", "keita@gmail.com"),
+                    new User(null, "Abdoukarim", "sidibe", "thiate@gmail.com")
                 )
             );
         }
